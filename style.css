@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 40px;
+}
+.decoration{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +39,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: bottom;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+.Experience-part{
+    background-image: url(images/exp-bg.png);
+    background-position-x: 0;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
 }
